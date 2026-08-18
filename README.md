@@ -6,15 +6,15 @@ Analyze customer, order, product, seller, payment, delivery, and review data to 
 
 ## Dataset provenance
 
-This project uses the **Brazilian E-Commerce Public Dataset by Olist**, a public, anonymized dataset containing roughly 100,000 orders from 2016–2018. The dataset was released by Olist and is publicly available through Kaggle.
+This project uses the **Brazilian E-Commerce Public Dataset by Olist**, a public anonymized dataset of roughly 100,000 orders from 2016–2018.
 
-**Original data source:** Brazilian E-Commerce Public Dataset by Olist.
+**Original dataset source:** https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 
-> The underlying data is public and belongs to its original publisher. The SQL, analysis structure, metric definitions, visualizations, and business recommendations in this repository are portfolio work.
+The underlying data belongs to its original publisher. The SQL, analysis structure, metric definitions, visualizations, and business recommendations in this repository are independent portfolio work.
 
 ## Originality
 
-This repository is an independent portfolio implementation. It does not reproduce another analyst's SQL, README, conclusions, or project narrative.
+This repository is an independent implementation. It does not reproduce another analyst's SQL, README, conclusions, or project narrative.
 
 ## Questions
 
