@@ -25,7 +25,7 @@ SELECT
     COALESCE(t.product_category_name_english, p.product_category_name, 'unknown') AS category,
     ROUND(SUM(oi.price)::numeric, 2) AS merchandise_revenue,
     COUNT(DISTINCT oi.order_id) AS orders,
-    SUM(oi.order_item_id) AS item_lines
+    COUNT(*) AS item_lines
 FROM order_items oi
 JOIN products p ON oi.product_id = p.product_id
 LEFT JOIN product_category_name_translation t
